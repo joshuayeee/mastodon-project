@@ -27,7 +27,7 @@
         background-color: rgb(250, 129, 47);
         color: rgb(254, 243, 226);
         margin-top: -20px;
-        padding-bottom: 450px;
+        padding-bottom: 300px;
         padding-top: 25px;
         padding-left: 25px
     }
@@ -37,7 +37,7 @@
         background-color: rgb(250, 64, 50);
         color: rgb(254, 243, 226);
         margin-top: -20px;
-        padding-bottom: 450px;
+        padding-bottom: 300px;
         padding-top: 25px;
         padding-left: 25px
     }
@@ -45,6 +45,30 @@
     .selected
     {
         color: rgb(250, 64, 50);
+    }
+
+    .imgleft
+    {
+        padding-left: 25px;
+        padding-right: 50px;
+    }
+
+    .imgright
+    {
+        padding-left: 50px;
+        padding-right: 25px;
+    }
+
+    .txtleft
+    {
+        padding-left: 75px;
+        padding-top: 150px;
+    }
+
+    .txtright
+    {
+        padding-left: 900px;
+        padding-top: 150px;
     }
 </style>
 
@@ -76,25 +100,33 @@
 
 <h3 class="orange">
     <p>
-        <img src="ExtinctImage.jpg" alt="Extinct Image" style="float:right;width:614.4;height:460.8;">
+        <img class="imgright" src="ExtinctImage.jpg" alt="Extinct Image" style="float:right;width:614.4;height:460.8;">
+    </p>
+    <p class="txtleft">
         The extinction of the Mastodon can be broken down to three possible scenarios...
     </p>
 </h3>
 <h3 class="red">
     <p>
-        <img src="ExtinctImage2.jpg" alt="Extinct Image" style="float:left;width:512;height:245;">
-        They were hunted to extinction by early humans.
+        <img class="imgleft" src="ExtinctImage2.jpg" alt="Extinct Image" style="float:left;width:612;height:345;">
+    </p>
+    <p class="txtright">
+        1. They were hunted to extinction by early humans.
     </p>
 </h3>
 <h3 class="orange">
     <p>
-        <img src="ExtinctImage3.jpg" alt="Extinct Image" style="float:right;width:600;height:400;">
-        The environment changed too fast for them to adapt to.
+        <img class="imgright" src="ExtinctImage3.jpg" alt="Extinct Image" style="float:right;width:600;height:400;">
+    </p>
+    <p class="txtleft">
+        2. The environment changed too fast for them to adapt to.
     </p>
 </h3>
 <h3 class="red">
     <p>
-        <img src="ExtinctImage4.avif" alt="Extinct Image" style="float:left;width:465;height:279;">
-        Somewhere inbetween; they were excessively hunted and they couldn't adapt fast enough to changes in the environment.
+        <img class="imgleft" src="ExtinctImage4.avif" alt="Extinct Image" style="float:left;width:465;height:279;">
+    </p>
+    <p class="txtrght">
+        3. Somewhere inbetween; they were excessively hunted and they couldn't adapt fast enough to changes in the environment.
     </p>
 </h3>
